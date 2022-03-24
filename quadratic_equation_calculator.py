@@ -6,10 +6,8 @@ def main():
     b = eval(input("Insert value b: "))
     c = eval(input("Insert value c: "))
     try:
-        x1 = (-b+math.sqrt((b*b)-(4*a*c)))/(2*a)
-        x2 = (-b-math.sqrt((b*b)-(4*a*c)))/(2*a)
-        print("First root is: ", x1)
-        print("Second root is: ", x2)
+        print("First root is: ", (-b+math.sqrt((b*b)-(4*a*c)))/(2*a))
+        print("Second root is: ", (-b-math.sqrt((b*b)-(4*a*c)))/(2*a))
     except:
         print("First root is equal to: ", -b, "-", "sqrt(", ((b*b)-(4*a*c)), ")/", 2*a)
         print("First root is equal to: ", -b, "+", "sqrt(", ((b*b)-(4*a*c)), ")/", 2*a)
