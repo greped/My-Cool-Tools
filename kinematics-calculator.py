@@ -1,4 +1,5 @@
 import math
+# you need to install pillow, check it out here: https://pillow.readthedocs.io/en/latest/installation.html
 from PIL import Image
 def main():
     print("Find Vf without X, press 1");
