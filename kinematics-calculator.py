@@ -1,3 +1,4 @@
+# install Python 3 to your computer. If you use Mac, Windows, or Linux, go here: https://realpython.com/installing-python/
 import math
 # you need to install pillow, check it out here: https://pillow.readthedocs.io/en/latest/installation.html
 from PIL import Image
@@ -41,9 +42,9 @@ def main():
                 a = eval(input("a: "))
                 print("xf is: ", x0+(vf*t)-(0.5*a*(t ** 2)))
             elif x == 6:
-                # replace the below path with the path to a stored image of the kinematics formula, helps to have)
+                # replace the below path ('/home/nosignal...') with the path to a stored image of the kinematics formula, helps to have). If you can't get it to work, just put a # in front of the next two lines.
                 imag = Image.open('/home/nosignal/Pictures/kinematicseqs.png')
-               imag.show()
+                imag.show()
             else:
                 print("Please enter one of the listed numbers")
             break
@@ -51,3 +52,5 @@ def main():
             print("Use a number between 1-5 please")
             continue
 main()
+
+# to get this file to work like a calculator, you need to download this file and save it underwhichever name you want as long as the name ends with .py. Use this link to run it: https://techendo.com/post/how-to-run-a-python-script.html
